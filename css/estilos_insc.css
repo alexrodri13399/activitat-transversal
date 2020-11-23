@@ -1,0 +1,497 @@
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0;
+    }
+    
+    body {
+        margin: 0px;
+        background: #d1d1d1;
+    }
+    /* Logo */
+    
+    .logo {
+        float: left;
+        margin-left: auto;
+    }
+    /* Menu */
+    
+    .menu-main {
+        display: inline-flex;
+        justify-content: space-between;
+        background: transparent;
+        border-bottom: 1px solid transparent;
+        height: 45px;
+    }
+    
+    .menu-main a {
+        flex: 1;
+        font-family: arial;
+        display: flex;
+        color: gray;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: bold;
+        justify-content: center;
+        align-items: center;
+        margin: 35px;
+    }
+    /* Idioma */
+    
+    .idioma {
+        float: right;
+        margin-top: 30px;
+        margin-right: 15px;
+    }
+    /* LogoHospi */
+    
+    .logohospi {
+        position: absolute;
+        margin-left: 20px;
+        margin-top: 460px;
+    }
+    /* Header */
+    
+    .header {
+        background: url(../img/fondo.png);
+        background-size: cover;
+        height: 600px;
+        width: 100%;
+        text-align: center;
+    }
+    /* Contenedor Principal Inscripción */
+    
+    .contenedorinicio {
+        background-color: white;
+        height: 1000px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .iniciocentra {
+        margin-top: 80px;
+        display: inline-block;
+        width: 100%;
+    }
+    
+    .contenedorinicio img {
+        margin-left: 120px;
+        width: 30%;
+        height: 100%;
+        float: left;
+    }
+    
+    .inicioderecha {
+        float: right;
+        margin-left: 20px;
+        margin-right: 100px;
+        text-align: left;
+        width: 40%;
+    }
+    /* Estilos formulario */
+    
+    input[type=text],
+    input[type=email],
+    input[type=date],
+    .selects {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    
+    input[type=submit] {
+        width: 100%;
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+    
+    .form {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+    }
+    /*Footer*/
+    
+    footer {
+        bottom: 0;
+    }
+    
+    .footer-distributed {
+        background-color: #292c2f;
+        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+        box-sizing: border-box;
+        width: 100%;
+        text-align: left;
+        font: bold 16px sans-serif;
+        padding: 55px 50px;
+    }
+    
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    .footer-distributed .footer-left {
+        width: 40%;
+    }
+    
+    .footer-distributed h3 {
+        color: #ffffff;
+        font: normal 36px 'Cookie', cursive;
+        margin: 0;
+    }
+    
+    .footer-distributed h3 span {
+        color: #5383d3;
+    }
+    
+    .footer-distributed .footer-links {
+        color: #ffffff;
+        margin: 20px 0 12px;
+        padding: 0;
+    }
+    
+    .footer-distributed .footer-links a {
+        display: inline-block;
+        line-height: 1.8;
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    .footer-distributed .footer-company-name {
+        color: #8f9296;
+        font-size: 14px;
+        font-weight: normal;
+        margin: 0;
+    }
+    
+    .footer-distributed .footer-center {
+        width: 35%;
+    }
+    
+    .footer-center h3 {
+        color: #ffffff;
+        font: normal 36px 'Cookie', cursive;
+        margin-left: 28px;
+    }
+    
+    .footer-distributed .footer-center i {
+        background-color: #33383b;
+        color: #ffffff;
+        font-size: 25px;
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 42px;
+        margin: 10px 15px;
+        vertical-align: middle;
+    }
+    
+    .footer-distributed .footer-center i.fa-envelope {
+        font-size: 17px;
+        line-height: 38px;
+    }
+    
+    .footer-distributed .footer-center p {
+        display: inline-block;
+        color: #ffffff;
+        vertical-align: middle;
+        margin: 0;
+    }
+    
+    .footer-distributed .footer-center p span {
+        display: block;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 2;
+    }
+    
+    .footer-distributed .footer-center p a {
+        color: #5383d3;
+        text-decoration: none;
+        ;
+    }
+    
+    .footer-distributed .footer-right {
+        width: 20%;
+    }
+    
+    .footer-distributed .footer-company-about {
+        line-height: 20px;
+        color: #92999f;
+        font-size: 13px;
+        font-weight: normal;
+        margin: 0;
+    }
+    
+    .footer-distributed .footer-company-about span {
+        display: block;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    
+    .footer-distributed .footer-icons {
+        margin-top: 25px;
+    }
+    
+    .footer-distributed .footer-icons a img {
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        cursor: pointer;
+        background-color: #33383b;
+        border-radius: 2px;
+        font-size: 20px;
+        color: #ffffff;
+        text-align: center;
+        line-height: 35px;
+        margin-right: 3px;
+        margin-bottom: 5px;
+    }
+    /*//////////////////////////////////////////       RESPONSIVE        ////////////////////////////////////////////*/
+    
+    @media (max-width: 1062px) {
+        .logo {
+            margin-left: auto;
+        }
+        .menu-main a {
+            height: 45px;
+            margin: 15px;
+            font-size: 13px;
+        }
+        .idioma {
+            float: right;
+            margin-top: 30px;
+            margin-right: 15px;
+        }
+        .logohospi {
+            margin-top: 270px;
+        }
+        .header {
+            background-size: cover;
+            height: 400px;
+        }
+        .contenedorinicio {
+            background-color: white;
+            height: 400px;
+            width: 100%;
+            text-align: center;
+        }
+        .iniciocentra {
+            margin-top: 100px;
+            display: inline-block;
+            width: 100%;
+        }
+        .contenedorinicio img {
+            margin-top: 30px;
+            margin-left: 20px;
+            width: 40%;
+            height: 30%;
+            float: left;
+        }
+        .contenedornoticias {
+            height: 550px;
+        }
+        .contenedornoticias img {
+            width: 240px;
+            height: 380px;
+            text-align: center;
+            margin-top: 8%;
+        }
+        .infoizquierda {
+            margin-top: 60px;
+            float: left;
+            margin-left: 100px;
+            text-align: left;
+            width: 40%;
+        }
+        .infoderecha {
+            float: right;
+            text-align: center;
+            width: 40%;
+        }
+        .infoderecha {
+            margin-right: 50px;
+        }
+        .infoderecha img {
+            margin-left: 20px;
+            margin-right: 80px;
+            margin-top: 60px;
+            width: 80%;
+            height: 60%;
+        }
+        /*Fotter*/
+        .footer-distributed .footer-links {
+            font-size: 14px;
+        }
+        .footer-distributed .footer-center p {
+            font-size: 12px;
+        }
+        .footer-center h3 {
+            color: #ffffff;
+            font: normal 36px 'Cookie', cursive;
+            margin: 0;
+        }
+        .footer-distributed .footer-center i {
+            margin: 0;
+        }
+    }
+    
+    @media (max-width: 768px) {
+        .menu-main {
+            height: auto;
+            border-bottom: 0px;
+            display: block;
+            background: gray;
+        }
+        .menu-main a {
+            height: 45px;
+            /*border-bottom: 1px solid #29487d;*/
+            margin: 0px;
+            color: white;
+        }
+        .header {
+            background-color: gray;
+            background-size: cover;
+            height: auto;
+            width: 100%;
+            text-align: center;
+            background-image: none;
+        }
+        .logo {
+            display: none;
+        }
+        .idioma {
+            display: none;
+        }
+        .logohospi {
+            display: none;
+        }
+        .contenedorcontador h2 {
+            margin-top: 10;
+            font-size: 26px;
+        }
+        .contenedorinicio {
+            background-color: white;
+            height: 420px;
+            width: 100%;
+            text-align: center;
+        }
+        .iniciocentra {
+            margin: auto;
+            width: 100%;
+        }
+        .contenedorinicio img {
+            margin-top: 20px;
+            width: 60%;
+            height: 40%;
+            text-align: center;
+            float: none;
+        }
+        .inicioderecha {
+            margin-right: auto;
+            text-align: center;
+            width: 100%;
+            font-size: 14px;
+        }
+        .clasificacion h1 {
+            font-size: 25px;
+            margin-top: 85px;
+        }
+        .botonclasi h1 {
+            font-size: 25px;
+            margin-top: 85px;
+        }
+        .contenedornoticias {
+            height: 2000px;
+            width: 100%;
+            text-align: center;
+            display: block;
+        }
+        .noticia1 {
+            width: 100%;
+            height: 600px;
+            float: none;
+        }
+        .noticia2 {
+            width: 100%;
+            height: 600px;
+            float: none;
+        }
+        .noticia3 {
+            width: 100%;
+            height: 600px;
+            float: none;
+        }
+        .contenedornoticias img {
+            width: 400px;
+            height: 550px;
+            text-align: center;
+            margin-top: 8%;
+        }
+        .contenedorinfo {
+            height: 450px;
+        }
+        .infocentra {
+            margin: 0;
+            width: 100%;
+            text-align: center;
+        }
+        .infoizquierda {
+            margin-top: 20px;
+            margin-left: 0;
+            float: none;
+            width: 100%;
+            text-align: center;
+        }
+        .infoderecha {
+            float: none;
+            text-align: center;
+            width: 100%;
+        }
+        .infoderecha img {
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-top: 20px;
+            width: 55%;
+            height: 35%;
+        }
+        /*Footer*/
+        .footer-distributed {
+            font: bold 14px sans-serif;
+        }
+        .footer-distributed .footer-left,
+        .footer-distributed .footer-center,
+        .footer-distributed .footer-right {
+            display: block;
+            width: 100%;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        .footer-distributed .footer-center i {
+            margin-left: 0;
+        }
+        .footer-center h3 {
+            margin: 0;
+        }
+    }
