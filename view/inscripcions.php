@@ -56,7 +56,7 @@
 							echo "<p style='color:red;'>La edad introducida no corresponde a ninguna categoria, lamentamos que no pueda competir, y le animamos que a que lo intente en próximos años.</p>";
 						}
 					?>
-					<form action="inscripcions.php" method="POST" onsubmit="return validacionForm()">
+					<form action="inscripcions.php" method="POST" id="form">
 						<label>DNI</label>
 						<input type="text" id="dni" name="dni">
 
@@ -86,6 +86,9 @@
 						<option value="No">No</option>
 						<option value="Si">Si</option>
 						</select>
+
+						<label>Categoria</label>
+						<input type="text" id="categoria" disabled>
 					
 						<input type="submit" value="Inscribir">
 						<div id="message"></div>
